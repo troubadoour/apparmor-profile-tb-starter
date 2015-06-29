@@ -1,0 +1,23 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: apparmor-profile-tb-starter
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 9), faketime, genmkfile, dh-apparmor
+Homepage: https://www.whonix.org/wiki/AppArmor
+Vcs-Browser: https://github.com/Whonix/apparmor-profile-tb-starter
+Vcs-Git: https://github.com/Whonix/apparmor-profile-tb-starter.git
+Standards-Version: 3.9.6
+
+Package: apparmor-profile-tb-starter
+Architecture: all
+Depends: ${misc:Depends}, apparmor
+Description: AppArmor profile for tb-starter
+ An AppArmor profile to confine tb-starter. This profile
+ is developed by the Whonix team. TBB is developed by The Tor Project.
+ .
+ This package is produced independently of, and carries no guarantee from,
+ The Tor Project.

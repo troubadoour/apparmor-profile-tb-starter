@@ -1,0 +1,5 @@
+apparmor-profile-tb-starter (3:0.0-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 29 Jun 2015 17:56:25 +0000
