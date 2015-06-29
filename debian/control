@@ -15,9 +15,10 @@ Standards-Version: 3.9.6
 Package: apparmor-profile-tb-starter
 Architecture: all
 Depends: ${misc:Depends}, apparmor
-Description: AppArmor profile for tb-starter
- An AppArmor profile to confine tb-starter. This profile
- is developed by the Whonix team. TBB is developed by The Tor Project.
+Description: AppArmor profile for tb-starter(Whonix Tor Browser starter)
+ An AppArmor profile to confine tb-starter (Whonix Tor Browser starter).
+ This profile  is developed by the Whonix team. TBB is developed by The
+ Tor Project.
  .
  This package is produced independently of, and carries no guarantee from,
  The Tor Project.
